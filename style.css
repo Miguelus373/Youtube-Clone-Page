@@ -84,3 +84,8 @@ body {
 #share, #save {
     width: 92px;
 }
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
