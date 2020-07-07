@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 50px;
+}
+
+.button {
+    margin: 50px;
+    background: blue;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    color: white;
+    display: ;
+}

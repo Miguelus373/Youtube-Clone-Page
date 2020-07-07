@@ -33,13 +33,14 @@ body {
     height: 100%;
     grid-template-columns: 70% 30%;
     padding: 20px 100px;
+    background-color: #f9f9f9;
 }
 
 .left-container{
     border: 1px solid red;
     text-align: center;
     display: inherit;
-    grid-template-rows: 600px 85px 250px 200px;
+    grid-template-rows: 600px 85px 280px 200px;
     padding: 0px 20px;    
 }
 
@@ -79,36 +80,61 @@ body {
 }
 
 .video-description {
+    border: lawngreen solid 2px;
     display: flex;
     border-bottom: lightgray solid 1px;
     margin-top: 20px;
 }
 
 .user {
-    width: 10%;
+    border: blue solid 1px;
+    width: 5%;
 }
 
 .description {
-    width: 70%;
+    border: blue solid 1px;
+    width: 85%;
     text-align: start;
 }
 
+.description h4 {  
+    margin-bottom: 0px;
+
+}
+
+#suscribers {
+    font-size: 0.9rem;
+    color: #606060;
+    margin-top: 0px;
+}
+#description-text {
+    font-size: 14px;
+}
+
 .subscribe-button {
+    border: blue solid 1px;
     width: 10%;
 }
 
 #subscribe {
-    background-color: red;
+    background-color: #cc0203;
     color: white;
     font-weight: bold;
     border-color: transparent;
     height: 40px;
-    width: 110px;
+    width: 100%;
     margin-right: 20px;
 }
 
+#show-button {
+    background-color: #f9f9f9;
+    border: none;
+    color: #666a6e;
+    font-weight: bold;
+}
+
 .comments {
-    background-color: mediumseagreen;
+    background-color: lightblue;
 }
 
 .button-tools {
