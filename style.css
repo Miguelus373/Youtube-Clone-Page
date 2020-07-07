@@ -77,6 +77,28 @@ body {
     align-self: flex-end;
     border: red solid 1px;
     height: 40px;
+    align-items: center;
+}
+
+.video-info-buttons a {
+    text-decoration: none;
+    color: #666a6e;
+    padding: 0 20px;
+}
+
+#like, #dislike, #video-menu {
+    width: 36px;
+    height: 36px;
+}
+
+#share, #save {
+    width: 92px;
+    height: 36px;
+}
+
+.button-tools{
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .video-description {
@@ -87,12 +109,10 @@ body {
 }
 
 .user {
-    border: blue solid 1px;
     width: 5%;
 }
 
 .description {
-    border: blue solid 1px;
     width: 85%;
     text-align: start;
 }
@@ -112,7 +132,6 @@ body {
 }
 
 .subscribe-button {
-    border: blue solid 1px;
     width: 10%;
 }
 
@@ -124,6 +143,7 @@ body {
     height: 40px;
     width: 100%;
     margin-right: 20px;
+    border-radius: 3px;
 }
 
 #show-button {
@@ -134,22 +154,18 @@ body {
 }
 
 .comments {
-    background-color: lightblue;
+    padding: 35px 0;
+}
+
+.comments a img {
+    margin-right: 12px;
+}
+
+.comments a {
+    color: black;
+    text-decoration: none;
 }
 
 .button-tools {
     height: 36px;
-}
-
-#like, #dislike, #video-menu {
-    width: 36px;
-}
-
-#share, #save {
-    width: 92px;
-}
-
-.button-tools{
-    background-color: transparent;
-    border-color: transparent;
 }
