@@ -39,7 +39,7 @@ body {
     padding: 10px;
     text-align: center;
     display: inherit;
-    grid-template-rows: 70% 45px 70px auto;    
+    grid-template-rows: 70% 85px 70px auto;    
 }
 
 .video-list{
@@ -56,6 +56,13 @@ body {
 
 .video-info {
     background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-info-buttons {
+    display: inherit;
+    align-items: flex-end;
 }
 
 .video-description {
