@@ -72,3 +72,15 @@ body {
 .comments {
     background-color: mediumseagreen;
 }
+
+.button-tools {
+    height: 36px;
+}
+
+#like, #dislike, #video-menu {
+    width: 36px;
+}
+
+#share, #save {
+    width: 92px;
+}
