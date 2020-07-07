@@ -6,11 +6,21 @@ body {
 
 .header {
     display: flex;
-    border: red solid 1px;
     height: 60px;
     justify-content: space-between;
     align-items: center;
 }
+
+.first-icons {
+    display: inherit;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.first-icons img {
+    padding: 0px 8px;
+}
+
 
 .searcher-containner {
     display: flex;
@@ -20,15 +30,28 @@ body {
 .searchbar {
     height: 32px;
     width: 500px;
+    border: #b9b7b7 solid 1px;
+    outline: transparent;
 }
 
 .search-button {
-    height: 38px;
-    width: 70px;
+    height: 36px;
+    width: 80px;
+    box-shadow: none;
+    border: #b9b7b7 solid 1px;
+    
+
+}
+
+.icons-containner {
+    display: inherit;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10px;
 }
 
 .main-containner{
-    border: blue solid 1px;
     display: grid;
     height: 100%;
     grid-template-columns: 70% 30%;
@@ -37,7 +60,6 @@ body {
 }
 
 .left-container{
-    border: 1px solid red;
     text-align: center;
     display: inherit;
     grid-template-rows: 600px 85px 280px 200px;
@@ -45,9 +67,8 @@ body {
 }
 
 .video-list{
-    background: green;
+    
     height: 100%;
-    border: 1px solid red;
     padding: 10px;
     text-align: center;
 }
@@ -102,7 +123,6 @@ body {
 }
 
 .video-description {
-    border: lawngreen solid 2px;
     display: flex;
     border-bottom: lightgray solid 1px;
     margin-top: 20px;
@@ -168,4 +188,32 @@ body {
 
 .button-tools {
     height: 36px;
+}
+
+.next-play, .autoplay {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+}
+
+.next-play p {
+    font-size: larger;    
+}
+
+.autoplay p{
+    margin-right: 32px;
+    color: #666a6e;
+    font-size: medium;
+}
+
+.next-play img {
+    margin-left: 8px;
+}
+
+
+
+.button:hover, .next-play img:hover, #subscribe:hover, .search-button, .icons-containner img:hover,
+.video-info-buttons a:hover, .first-icons img:hover, #show-button:hover, h4 {
+    cursor: pointer;
 }
