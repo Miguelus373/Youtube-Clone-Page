@@ -67,22 +67,46 @@ body {
     align-items: flex-end;
 }
 
+#views {
+    text-align: start;
+}
+
+.video-info-buttons {
+    display: flex;
+    align-self: flex-end;
+    border: red solid 1px;
+    height: 40px;
+}
+
 .video-description {
     display: flex;
     border-bottom: lightgray solid 1px;
+    margin-top: 20px;
 }
 
 .user {
     width: 10%;
 }
 
-.text1 {
-    width: 80%;
+.description {
+    width: 70%;
+    text-align: start;
 }
 
 .subscribe-button {
     width: 10%;
 }
+
+#subscribe {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-color: transparent;
+    height: 40px;
+    width: 110px;
+    margin-right: 20px;
+}
+
 .comments {
     background-color: mediumseagreen;
 }
