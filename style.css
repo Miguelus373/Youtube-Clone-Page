@@ -12,6 +12,11 @@ body {
     align-items: center;
 }
 
+.searchbar {
+    height: 32px;
+    width: 500px;
+}
+
 .main-containner{
     border: blue solid 1px;
     display: grid;
