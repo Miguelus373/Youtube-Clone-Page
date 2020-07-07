@@ -12,9 +12,19 @@ body {
     align-items: center;
 }
 
+.searcher-containner {
+    display: flex;
+    align-items: center;
+}
+
 .searchbar {
     height: 32px;
     width: 500px;
+}
+
+.search-button {
+    height: 38px;
+    width: 70px;
 }
 
 .main-containner{
