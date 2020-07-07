@@ -30,34 +30,36 @@ body {
 .main-containner{
     border: blue solid 1px;
     display: grid;
+    height: 100%;
     grid-template-columns: 70% 30%;
+    padding: 20px 100px;
 }
 
 .left-container{
-    background: lightblue;
     border: 1px solid red;
-    padding: 10px;
     text-align: center;
     display: inherit;
-    grid-template-rows: 70% 85px 70px auto;    
+    grid-template-rows: 600px 85px 250px 200px;
+    padding: 0px 20px;    
 }
 
 .video-list{
     background: green;
-    height: 100vh;
+    height: 100%;
     border: 1px solid red;
     padding: 10px;
     text-align: center;
 }
 
 .video {
-    background-color: lightcoral;
+    border-bottom: lightgray solid 1px;
+    width: 100%;
 }
 
 .video-info {
-    background-color: lightseagreen;
     display: flex;
     justify-content: space-between;
+    border-bottom: lightgray solid 1px;
 }
 
 .video-info-buttons {
@@ -66,9 +68,21 @@ body {
 }
 
 .video-description {
-    background-color: magenta;
+    display: flex;
+    border-bottom: lightgray solid 1px;
 }
 
+.user {
+    width: 10%;
+}
+
+.text1 {
+    width: 80%;
+}
+
+.subscribe-button {
+    width: 10%;
+}
 .comments {
     background-color: mediumseagreen;
 }
@@ -85,7 +99,7 @@ body {
     width: 92px;
 }
 
-button {
+.button-tools{
     background-color: transparent;
     border-color: transparent;
 }
