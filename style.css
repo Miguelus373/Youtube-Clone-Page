@@ -211,6 +211,54 @@ body {
     margin-left: 8px;
 }
 
+.video-list-containner {
+    border: red solid 1px;
+    height: 110px;
+    display: flex;
+}
+
+
+.thumbnail{ 
+    border: green solid 1px;
+    height: 110px;
+    width: 40%;
+}
+
+
+.thumbnail-description{ 
+    border: red solid 1px;
+    height: 110px;
+    width: 60%;
+    text-align: start;
+}
+
+
+
+.thumbnail-description ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thumbnail-description ul {
+    padding-left: 10px;
+}
+
+.thumbnail-description a{
+    text-decoration: none;
+}
+
+.thumbnail-title {
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+
+.thumbnail-info {
+    color: gray;
+    font-size: 0.8em;
+}
 
 
 .button:hover, .next-play img:hover, #subscribe:hover, .search-button, .icons-containner img:hover,
