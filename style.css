@@ -28,14 +28,14 @@ body {
 }
 
 .searchbar {
-    height: 32px;
-    width: 500px;
+    height: 30px;
+    width: 600px;
     border: #b9b7b7 solid 1px;
     outline: transparent;
 }
 
 .search-button {
-    height: 36px;
+    height: 34px;
     width: 80px;
     box-shadow: none;
     border: #b9b7b7 solid 1px;
@@ -96,7 +96,6 @@ body {
 .video-info-buttons {
     display: flex;
     align-self: flex-end;
-    border: red solid 1px;
     height: 40px;
     align-items: center;
 }
@@ -118,8 +117,18 @@ body {
 }
 
 .button-tools{
+
     background-color: transparent;
     border-color: transparent;
+}
+
+.button, .button-tools {
+    display: flex;
+    align-items: center;
+}
+
+.button img, .button-tools img {
+    padding-right: 5px;
 }
 
 .video-description {
