@@ -212,21 +212,19 @@ body {
 }
 
 .video-list-containner {
-    border: red solid 1px;
     height: 110px;
     display: flex;
+    padding: 10px 0;
 }
 
 
 .thumbnail{ 
-    border: green solid 1px;
     height: 110px;
     width: 40%;
 }
 
 
 .thumbnail-description{ 
-    border: red solid 1px;
     height: 110px;
     width: 60%;
     text-align: start;
