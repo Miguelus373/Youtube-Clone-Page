@@ -1,10 +1,9 @@
 # Youtube Clone Page
 
-> One paragraph statement about the project.
+> This is the first collaborative project from Microverse program, It's a mock-up of a Youtube's page, it's built on HTML and CSS3 languages.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
