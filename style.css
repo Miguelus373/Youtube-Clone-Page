@@ -39,8 +39,6 @@ body {
     width: 80px;
     box-shadow: none;
     border: #b9b7b7 solid 1px;
-    
-
 }
 
 .icons-containner {
@@ -109,16 +107,6 @@ body {
     padding: 0 0.6em;
 }
 
-#like, #dislike, #video-menu {
-    width: 36px;
-    height: 36px;
-}
-
-#share, #save {
-    width: 92px;
-    height: 36px;
-}
-
 .button-tools{
     height: 36px;
     padding: 0 0em;
@@ -149,7 +137,6 @@ body {
     display: flex;
     border-bottom: lightgray solid 1px;
     padding-top: 1.2em;
-    
 }
 
 .user {
