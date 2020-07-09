@@ -62,7 +62,7 @@ body {
 .left-container{
     text-align: center;
     display: inherit;
-    grid-template-rows: 600px 85px 280px 200px;
+    grid-template-rows: 600px 100px 280px 200px;
     padding: 0px 20px;    
 }
 
@@ -73,12 +73,14 @@ body {
 
 #views {
     text-align: start;
+    padding-bottom: 10px;
 }
 
 .video-info {
     display: flex;
     justify-content: space-between;
     border-bottom: lightgray solid 1px;
+    padding-bottom: 10px;
 }
 
 .video-info-buttons {
@@ -110,6 +112,16 @@ body {
     border-color: transparent;
 }
 
+.button span {
+    font-size: 1.4em;
+    padding: 0 5px;
+}
+
+.button-tools span {
+    font-size: 1.4em;
+    padding: 0 5px;
+}
+
 .button, .button-tools {
     display: flex;
     align-items: center;
@@ -123,6 +135,10 @@ body {
     display: flex;
     border-bottom: lightgray solid 1px;
     margin-top: 20px;
+}
+
+.video-info-descprition {
+    padding: 10px;
 }
 
 .user {
@@ -143,7 +159,7 @@ body {
 }
 
 #suscribers {
-    font-size: 0.9rem;
+    font-size: 0.9em;
     color: #606060;
     margin-top: 0px;
 }
