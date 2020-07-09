@@ -79,12 +79,13 @@ body {
     display: inline-block;
     text-align: start;
     border-bottom: lightgray solid 1px;
-    height: 7em;
-    border: solid red 1px;
+    height: 100%;
+    margin-bottom: 0.9em;
+   
 }
 
 .video-title {
-    border: solid green 1px;
+    
     padding-left: 0.8em;
 }
 
@@ -99,7 +100,7 @@ body {
     display: flex;
     height: 40px;
     align-items: center;
-    border: solid blue 1px;
+    
 }
 
 .video-info-buttons a {
@@ -147,17 +148,19 @@ body {
 .video-description {
     display: flex;
     border-bottom: lightgray solid 1px;
-    margin-top: 20px;
-    padding: 10px;
+    padding-top: 1.2em;
+    
 }
 
 .user {
     width: 5%;
+    padding: 0 0.5em;
 }
 
 .description {
     width: 85%;
     text-align: start;
+    padding: 0 1.2em 0 0.9em;
 }
 
 .description h4 {  
@@ -176,16 +179,20 @@ body {
 
 .subscribe-button {
     width: 10%;
+    padding-right: 0.4em;
+    margin-top: 1.33em;
 }
 
 #subscribe {
     background-color: #cc0203;
+    text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 0.8em;
     border-color: transparent;
-    height: 40px;
+    height: 3.2em;
     width: 100%;
-    margin-right: 20px;
+    padding: 0.7em;
     border-radius: 3px;
 }
 
