@@ -73,27 +73,39 @@ body {
 
 #views {
     text-align: start;
-    padding-bottom: 10px;
 }
 
 .video-info {
+    display: inline-block;
+    text-align: start;
+    border-bottom: lightgray solid 1px;
+    height: 7em;
+    border: solid red 1px;
+}
+
+.video-title {
+    border: solid green 1px;
+    padding-left: 0.8em;
+}
+
+.video-tools {
     display: flex;
     justify-content: space-between;
-    border-bottom: lightgray solid 1px;
-    padding-bottom: 10px;
+    align-items: center;
+    padding-left: 0.8em;
 }
 
 .video-info-buttons {
     display: flex;
-    align-self: flex-end;
     height: 40px;
     align-items: center;
+    border: solid blue 1px;
 }
 
 .video-info-buttons a {
     text-decoration: none;
     color: #666a6e;
-    padding: 0 20px;
+    padding: 0 0.6em;
 }
 
 #like, #dislike, #video-menu {
@@ -108,6 +120,7 @@ body {
 
 .button-tools{
     height: 36px;
+    padding: 0 0em;
     background-color: transparent;
     border-color: transparent;
 }
@@ -135,9 +148,6 @@ body {
     display: flex;
     border-bottom: lightgray solid 1px;
     margin-top: 20px;
-}
-
-.video-info-descprition {
     padding: 10px;
 }
 
