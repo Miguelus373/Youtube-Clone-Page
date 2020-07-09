@@ -39,8 +39,6 @@ body {
     width: 80px;
     box-shadow: none;
     border: #b9b7b7 solid 1px;
-    
-
 }
 
 .icons-containner {
@@ -62,15 +60,8 @@ body {
 .left-container{
     text-align: center;
     display: inherit;
-    grid-template-rows: 600px 85px 280px 200px;
+    grid-template-rows: 600px 100px 280px 200px;
     padding: 0px 20px;    
-}
-
-.video-list{
-    
-    height: 100%;
-    padding: 10px;
-    text-align: center;
 }
 
 .video {
@@ -78,48 +69,59 @@ body {
     width: 100%;
 }
 
-.video-info {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: lightgray solid 1px;
-}
-
-.video-info-buttons {
-    display: inherit;
-    align-items: flex-end;
-}
-
 #views {
     text-align: start;
 }
 
+.video-info {
+    display: inline-block;
+    text-align: start;
+    border-bottom: lightgray solid 1px;
+    height: 100%;
+    margin-bottom: 0.9em;
+   
+}
+
+.video-title {
+    
+    padding-left: 0.8em;
+}
+
+.video-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.8em;
+}
+
 .video-info-buttons {
     display: flex;
-    align-self: flex-end;
     height: 40px;
     align-items: center;
+    
 }
 
 .video-info-buttons a {
     text-decoration: none;
     color: #666a6e;
-    padding: 0 20px;
-}
-
-#like, #dislike, #video-menu {
-    width: 36px;
-    height: 36px;
-}
-
-#share, #save {
-    width: 92px;
-    height: 36px;
+    padding: 0 0.6em;
 }
 
 .button-tools{
-
+    height: 36px;
+    padding: 0 0em;
     background-color: transparent;
     border-color: transparent;
+}
+
+.button span {
+    font-size: 1.4em;
+    padding: 0 5px;
+}
+
+.button-tools span {
+    font-size: 1.4em;
+    padding: 0 5px;
 }
 
 .button, .button-tools {
@@ -134,44 +136,50 @@ body {
 .video-description {
     display: flex;
     border-bottom: lightgray solid 1px;
-    margin-top: 20px;
+    padding-top: 1.2em;
 }
 
 .user {
     width: 5%;
+    padding: 0 0.5em;
 }
 
 .description {
     width: 85%;
     text-align: start;
+    padding: 0 1.2em 0 0.9em;
 }
 
 .description h4 {  
     margin-bottom: 0px;
-
 }
 
-#suscribers {
-    font-size: 0.9rem;
-    color: #606060;
-    margin-top: 0px;
-}
 #description-text {
     font-size: 14px;
 }
 
+#suscribers {
+    font-size: 0.9em;
+    color: #606060;
+    margin-top: 0px;
+}
+
 .subscribe-button {
     width: 10%;
+    padding-right: 0.4em;
+    margin-top: 1.33em;
 }
 
 #subscribe {
     background-color: #cc0203;
+    text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 0.8em;
     border-color: transparent;
-    height: 40px;
+    height: 3.2em;
     width: 100%;
-    margin-right: 20px;
+    padding: 0.7em;
     border-radius: 3px;
 }
 
@@ -186,17 +194,20 @@ body {
     padding: 35px 0;
 }
 
-.comments a img {
-    margin-right: 12px;
-}
-
 .comments a {
     color: black;
     text-decoration: none;
 }
 
-.button-tools {
-    height: 36px;
+
+.comments a img {
+    margin-right: 12px;
+}
+
+.video-list{  
+    height: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
 .next-play, .autoplay {
@@ -226,12 +237,10 @@ body {
     padding: 10px 0;
 }
 
-
 .thumbnail{ 
     height: 110px;
     width: 40%;
 }
-
 
 .thumbnail-description{ 
     height: 110px;
@@ -239,16 +248,14 @@ body {
     text-align: start;
 }
 
-
+.thumbnail-description ul {
+    padding-left: 10px;
+}
 
 .thumbnail-description ul li {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.thumbnail-description ul {
-    padding-left: 10px;
 }
 
 .thumbnail-description a{
@@ -261,12 +268,10 @@ body {
     font-size: 0.9em;
 }
 
-
 .thumbnail-info {
     color: gray;
     font-size: 0.8em;
 }
-
 
 .button:hover, .next-play img:hover, #subscribe:hover, .search-button, .icons-containner img:hover,
 .video-info-buttons a:hover, .first-icons img:hover, #show-button:hover, h4 {
